@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务二</title>
+	<style>
+		*{margin: 0px; padding: 0px; font-family: "黑体";}
+		body{
+			background-color: rgb(222,222,222);
+		}
+		a{
+			text-decoration: none;
+		}
+		p{
+			margin: 5px 0;
+		}
+		header{
+			width: auto;
+			height: 60px;
+			background-image: url(images/baidu.png);
+			background-repeat: no-repeat;
+			background-position: 40px 6px;
+			background-color: rgb(51,51,51);
+		}
+		header ul{
+			position: absolute;
+			right: 0;
+		}
+		header ul li{
+			float: left;
+			list-style: inside;
+		}
+		header ul li a{
+			line-height: 60px;
+			font-size: 12px;
+			font-family: "微软雅黑";
+			margin-right: 20px;
+			color: white;
+		}
+		header ul li a:hover{
+			color: #ccc;
+		}
+		#main{
+			padding-top: 20px;
+		}
+		h2{
+			margin-bottom: 10px;
+		}
+		h3{
+			color: rgb(180,180,180);
+			font-family: "微软雅黑";
+			font-size: 15px;
+			margin-bottom: 10px;
+		}
+		h3 + p {
+			font-size: 14px;
+			margin-bottom: 10px;
+			color: navy;
+		}
+		.box{
+			width: 92%;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			background-color: white;
+			border: 1px solid #ccc;
+			padding: 30px 20px 20px;
+			box-shadow: 1px 1px .5px .5px gray;
+		}
+		.paragraph{
+			text-indent: 2em;
+		}
+		dd{
+			width: 200px;
+			border: 1px solid #ccc;
+			text-align: center;
+			margin:0 0 10px 50px;
+			padding: 10px;
+		}
+		dd span{
+			display: block;
+		}
+		ol{
+			margin: 20px 0;
+		}
+		ol li{
+			text-indent: 2em;
+			list-style: decimal inside;
+			font-weight: bold;
+		}
+		table{
+			width: 100%;
+			table-layout: fixed;
+			text-align: left;
+			border-collapse: collapse;
+			text-indent: 4px;
+			font-size: 13px;
+			line-height: 20px;
+		}
+		table a{
+			text-decoration: underline;
+		}
+		thead{
+			background-color: rgb(51,51,51); 
+			color: white;
+			font-weight: bold;
+		}
+		tfoot{
+			background-color: #ccc;
+			font-weight: bold;
+		}
+		footer{
+			width: auto;
+			height: 80px;
+			line-height: 80px;
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		#form>h2{
+			/*display: block;*/
+			border-left: 3px solid #ccc;
+			text-indent: 10px;
+			margin-bottom: 10px;
+		}
+		form ul li{
+			list-style-type: none;
+			margin-left: 300px;
+			margin-bottom: 10px;
+		}
+		form ul li label{
+			display: block;
+			float: left;
+			width: 10em;
+			margin-right: .5em;
+			text-align: right;
+		}
+		form ul li span{
+			display: block;
+			margin-top: 5px;
+			margin-left: 168px;
+			font-size: 12px;
+			color: gray;
+		}
+		input[type="submit"]{
+			display: block;
+			width: 94%;
+			height: 40px;
+			background-color: rgb(51,85,208);
+			border: 1px solid rgb(51,85,208);
+			border-radius: 5px;
+			color: white;
+			font-size: 15px;
+			margin-left: 3%;
+		}
+		.formele{
+			margin-left: 300px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<!-- <h1>斯蒂芬·库里</h1> -->
+		<nav>
+		<ul>
+			<li><a href="#a1">早年经历</a></li>
+			<li><a href="#a2">NBA生涯</a></li>
+			<li><a href="#">国家队经历</a></li>
+			<li><a href="#">生涯数据</a></li>
+		</ul>
+		</nav>
+	</header>
+	
+	<!-- <video src="http://video.sina.com.cn/p/sports/k/v/2015-11-10/105265124785.html" controls autoplay></video>
+	<br>
+	<audio controls src="audio\10_Minutes.mp3">
+		can't play music
+	</audio> -->
+	<div id="main">
+		<article id="a1" class="box">
+			<h2>早年经历</h2>
+			<h3>不同时期</h3>
+			<p>lazycat <time datetime="2016-03-30">2016-03-30</time></p>
+			<p class="paragraph">
+			<a href="http://baike.baidu.com/view/2157866.htm?fromtitle=%E5%BA%93%E9%87%8C&fromid=8916710&type=syn" target="_blank"><b>斯蒂芬·库里</b></a>高中毕业后，曾参加杜克大学篮球训练营，希望加入名校杜克。但是当时杜克大学的K教练和他的教练团队认为库里太过瘦弱矮小，不会适应NCAA的强度，因而放弃将其招致麾下。<sup>[1] </sup>
+			</p>
+			<p class="paragraph">
+			大学时期 库里最终选择进入戴维森学院。
+			</p>
+			<p class="paragraph">大一赛季，库里以场均21.5分成为SEC联盟的最佳新人和得分王。在大学的第二场比赛中，贡献32分9板和4次助攻；在2007年南区锦标赛中打破新生三分球纪录。</p>
+			<p class="paragraph">大二赛季，库里率领黑马戴维森学院进入疯狂三月八强战。<sup>[2]</sup></p>
+			<p class="paragraph">
+			2008年的3月，戴维森学院相继战胜全国第七的冈萨加大学、NCAA二号种子乔治城大学和全美第三的威斯康辛大学，库里成了史上四位NCAA淘汰赛前四场都得到30分的球员之一。在对阵堪萨斯大学时，库里投中了赛季第159记三分球，创造了NCAA单季三分球的纪录。<sup>[3]</sup>
+			</p>
+			<p class="paragraph">
+				大三赛季，库里完成了由攻击后卫向控球后卫的转型，以场均28.6分领跑全美，另外还贡献4.4个篮板，5.6次助攻和2.5次抢断。超越传奇人物约翰·加蒂成为戴维森学院的历史得分王，曾在对阵拥有布莱克·格里芬的俄克拉荷马时，砍下42分，刷新了自己NCAA单场得分纪录
+			</p>
+		</article>
+
+		<article id="a2" class="box">
+			<h2>NBA生涯</h2>
+			<h3>2015-16赛季</h3>
+			<p>lazycat <time datetime="2016-03-30">2016-03-30</time></p>
+			<p class="paragraph">
+				2015年10月28日，勇士在2015-16赛季揭幕战中以111-95击败鹈鹕，斯蒂芬·库里首发出战36分钟，26投14中得到40分7次助攻6个篮板，成为自1972年卡里姆·阿布杜尔-贾巴尔后，首位能在揭幕战中得到40分的常规赛MVP。</p>
+			<p class="paragraph">
+				2015年11月1日，勇士134-120大胜鹈鹕，斯蒂芬·库里出场36分钟，得到53分、9助攻、4篮板和4抢断，其中第三节得到28分，刷新职业生涯单节得分纪录。库里生涯第三次单场得分超过50，成为勇士队史自威尔特·张伯伦、里克·巴里之后第三位有过3场得分50+的球员</p>
+			<p class="paragraph">
+				2015年11月3日，NBA官方宣布斯蒂芬·库里当选西部周最佳球员，库里职业生涯第三次获得周最佳荣誉。</p>
+			<p class="paragraph">
+				2015-16赛季开赛以来，库里在4场比赛里投进21记三分球，成为NBA历史上在赛季前4场比赛投进三分数最多的球员。库里在前5场比赛中总共得到179分，成为过去30年来，迈克尔·乔丹之后第二位能在赛季前5场比赛中至少拿到179分的球员。
+			<p class="paragraph">			
+				2015年11月13日，勇士客场129-116战胜森林狼，斯蒂芬·库里得到46分并命中了8记三分球，成为勇士队史对阵森林狼时单场得分最高的球员。</p>
+			<p class="paragraph">			
+				2015年11月20日，勇士客场124-117击败快船，斯蒂芬·库里出场37分钟，得到40分11个篮板4个助攻3个抢断，职业生涯第一次得到至少40分10个篮板的数据。</p>
+			<p class="paragraph">			
+				2016年3月17日，勇士主场121-85大胜尼克斯，斯蒂芬·库里出场28分钟，得到34分6个篮板和4次助攻，其中三分球13投8中，职业生涯三分球命中数累计达到1521个，超越迈克·毕比（1517），升至NBA历史三分球命中数榜第24位。
+			</p>						
+		</article>
+		
+		<!-- <figure style="border:1px solid white">
+			<figcaption>萌神大学时期</figcaption>
+			<img src="images/curry1.jpg" alt="curry">
+		</figure> -->
+		<dl class="box">
+			<dt><h2>图片</h2></dt>
+			<dd><span>萌神大学时期</span><br>
+				<img src="images/curry1.jpg" alt="curry">
+			</dd>
+			<dd><span>萌神大学时期</span><br>
+				<img src="images/curry1.jpg" alt="curry">
+			</dd>
+			<dd><span>萌神大学时期</span><br>
+				<img src="images/curry1.jpg" alt="curry">
+			</dd>
+			<dd><span>萌神大学时期</span><br>
+				<img src="images/curry1.jpg" alt="curry">
+			</dd>	
+		</dl>
+
+		<article class="box">
+			<h2>生涯数据</h2>
+			<h3>次标题</h3>
+			<p>lazycat <time datetime="2016-03-30">2016-03-30</time></p>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>这是一个表格Table</p>
+			<table border="1">
+				<!-- <caption>NBA生涯数据</caption> -->
+				<thead>
+					<tr>
+						<th>赛季</th>
+						<th>出场时间</th>
+						<th>得分</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>09-10</td>
+						<td>36.2</td>
+						<td>17.5</td>
+						<td><a href="#">删除</a></td>
+					</tr>
+					<tr>
+						<td>10-11</td>
+						<td>33.6</td>
+						<td>18.6</td>
+						<td><a href="#">删除</a></td>
+					</tr>
+					<tr>
+						<td>11-12</td>
+						<td>28.2</td>
+						<td>14.7</td>
+						<td><a href="#">删除</a></td>
+					</tr>
+				</tbody>
+				<tfoot>	
+					<tr>
+						<th>总计</th>
+						<td colspan="3">1000</td>
+					</tr>
+				</tfoot>
+			</table>
+		</article>
+
+		<article id="form" class="box">
+			<h2>这是一个侧栏</h2>
+			<aside>
+				<h3>侧栏注册窗口</h3>
+				<form action="#">
+					<!-- <fieldset>
+						<legend>个人信息</legend> -->
+						<ul>
+							<li>
+								<label for="email">请输入邮箱地址</label>
+								<input type="email" name="email" placehold="这是一个文本输入框" id="email" />
+								<br>
+								<span>邮箱地址请按照要求格式输入</span>
+							</li>
+							<li>
+								<label for="password">请输入密码</label>
+								<input type="password" name="password" placehold="这是一个文本输入框" id="password" value="12345678"/>
+							</li>
+							<li>
+								<label for="certain">请重复输入密码</label>
+								<input type="password" name="password" placehold="这是一个文本输入框" id="certain" value="12345678"/>
+								<br>
+								<span>密码为<b>6-16</b>位英文或者数字</span>
+							</li>
+							<li>
+								<label for="gender">性别</label>
+								<input type="radio" name="gender" id="male" value="male">男
+								<input type="radio" name="gender" id="female" value="male">女
+							</li>
+							<li>
+								<label for="city">城市</label>
+								<select name="city" id="city">
+									<option value="bj">北京</option>
+									<option value="sh">上海</option>
+									<option value="sz">深圳</option>
+								</select>
+							</li>
+							<li>
+								<label for="hobby">爱好</label>
+								<input type="checkbox" name="sport" id="hobby" />运动
+								<input type="checkbox" name="art" id="art" />艺术
+								<input type="checkbox" name="science" id="science" />科学
+							</li>
+							<li>
+								<label for="intro">个人描述</label>
+								<textarea name="introduction" id="intro" cols="80" rows="10" placehold="这是一个文本域"></textarea>
+							</li>
+						</ul>
+
+						<input type="submit" name="submit" id="submit">
+					<!-- </fieldset> -->
+				</form>
+			</aside>
+		</article>
+	</div>
+	<footer>
+		<p><small>版权所有</small>&copy;</p>
+	</footer>
+	</body>
+</html>
